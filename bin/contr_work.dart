@@ -2,7 +2,7 @@ import 'package:contr_work/contr_work.dart' as contr_work;
 import 'package:dio/dio.dart';
 
 void main(List<String> arguments) async {
-  var ar = 0.0;
+  double ar = 0.0;
   int count = 0;
   String url = 'https://dummyjson.com/products';
   var dio = Dio();
